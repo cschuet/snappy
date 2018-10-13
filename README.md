@@ -1,6 +1,6 @@
-# Bazel Build for [google/snappy](https://github.com/google/leveldb)
+# Bazel Build for [google/snappy](https://github.com/google/snappy)
 
-[![Build Status](https://travis-ci.org/cschuet/snappy.svg?branch=master)](https://travis-ci.org/cschuet/leveldb)
+[![Build Status](https://travis-ci.org/cschuet/snappy.svg?branch=master)](https://travis-ci.org/cschuet/snappy)
 
 Add to your WORKSPACE
 
@@ -24,7 +24,7 @@ repositories()
 
 Compile with
 ```
-bazel build @com_github_google_snappy//:leveldb
+bazel build @com_github_google_snappy//:snappy
 ```
 
 Test with
