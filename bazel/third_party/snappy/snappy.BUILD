@@ -2,6 +2,10 @@ licenses(["notice"])
 
 exports_files(["LICENSE"])
 
+package(
+    default_visibility = ["//visibility:public"],
+)
+
 genrule(
     name = "snappy_stubs_public_h",
     srcs = ["@com_github_cschuet_snappy//bazel/third_party/snappy:snappy-stubs-public.h"],
