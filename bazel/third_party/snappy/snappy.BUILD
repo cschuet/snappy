@@ -34,5 +34,6 @@ cc_library(
 	":snappy_stubs_public_h",
     ],
     defines = ["HAVE_CONFIG_H"],
+    includes = ["."],
 )
 
