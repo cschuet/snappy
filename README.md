@@ -7,9 +7,10 @@ Add to your WORKSPACE
 ```
 http_archive(
     name = "com_github_cschuet_snappy",
-    strip_prefix = "snappy-5f2dda2e502d904120eb3715f47ee8c8338efc90",
+    strip_prefix = "snappy-7b7f8fc8e162bbf24ad31fa046d995703179a3be",
+    sha256 = "a62d0fa46f3efb3cec7779d95bbf3320195d2f106d63db5a029eeebf0e7ec67f",
     urls = [
-        "https://github.com/cschuet/snappy/archive/5f2dda2e502d904120eb3715f47ee8c8338efc90.tar.gz",
+        "https://github.com/cschuet/snappy/archive/7b7f8fc8e162bbf24ad31fa046d995703179a3be.tar.gz",
     ],
 )
 
