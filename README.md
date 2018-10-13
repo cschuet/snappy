@@ -7,17 +7,13 @@ Add to your WORKSPACE
 ```
 http_archive(
     name = "com_github_cschuet_snappy",
-    strip_prefix = "snappy-<SHA-1>",
+    strip_prefix = "snappy-5f2dda2e502d904120eb3715f47ee8c8338efc90",
     urls = [
-        "https://github.com/cschuet/snappy/archive/<SHA-1>.tar.gz",
+        "https://github.com/cschuet/snappy/archive/5f2dda2e502d904120eb3715f47ee8c8338efc90.tar.gz",
     ],
 )
 
 load("@com_github_cschuet_snappy//:bazel/repositories.bzl", "repositories")
-
-repositories()
-
-load("@com_github_cschuet_crc32c//:bazel/repositories.bzl", "repositories")
 
 repositories()
 ```
