@@ -29,7 +29,3 @@ Test with
 bazel test @com_github_google_snappy//...
 ```
 
-## Limitations
-* not using FDATASYNC
-* not using Google Snappy
-* assumes little endian
